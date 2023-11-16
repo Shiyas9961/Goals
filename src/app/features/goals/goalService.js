@@ -1,6 +1,6 @@
 import axios from "axios"
 
-const API_URL = 'http://localhost:5001/api/goals'
+const API_URL = 'https://goals-yr91.onrender.com/api/goals'
 
 const createGoal = async (token,goalData) => {
     const config = { 
