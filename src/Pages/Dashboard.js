@@ -23,7 +23,7 @@ function Dashboard() {
     }
     dispatch(getGoal())
     return () => dispatch(reset())
-  },[user,dispatch,navigate,message,isError])
+  },[user,dispatch,message,isError])
 
   if(isLoading){
     return <Spinner />
